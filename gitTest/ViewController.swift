@@ -14,21 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    // first
-    // branch first
-    // master second
-    // branch second
-    
-    // master third
-    // master forth
-    
-    // commit 1
-    // commit 2
-    
-    // new commit 3
-    
-    // new commit 4
-    
-    // new commit 5
+    // fresh start
 }
 
