@@ -16,5 +16,6 @@ class ViewController: UIViewController {
     }
     // fresh start
     // line 1
+    // line 2
 }
 
