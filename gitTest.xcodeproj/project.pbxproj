@@ -13,6 +13,7 @@
 		F60214C624E50BF900872F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60214C424E50BF900872F34 /* Main.storyboard */; };
 		F60214C824E50BFC00872F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60214C724E50BFC00872F34 /* Assets.xcassets */; };
 		F60214CB24E50BFC00872F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60214C924E50BFC00872F34 /* LaunchScreen.storyboard */; };
+		F6D09CCF259E106500EAAE1C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D09CCE259E106500EAAE1C /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F60214C724E50BFC00872F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60214CA24E50BFC00872F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60214CC24E50BFC00872F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D09CCE259E106500EAAE1C /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F60214C724E50BFC00872F34 /* Assets.xcassets */,
 				F60214C924E50BFC00872F34 /* LaunchScreen.storyboard */,
 				F60214CC24E50BFC00872F34 /* Info.plist */,
+				F6D09CCE259E106500EAAE1C /* Secrets.swift */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -94,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Jason Ou Yang";
 				TargetAttributes = {
 					F60214BA24E50BF900872F34 = {
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60214C324E50BF900872F34 /* ViewController.swift in Sources */,
+				F6D09CCF259E106500EAAE1C /* Secrets.swift in Sources */,
 				F60214BF24E50BF900872F34 /* AppDelegate.swift in Sources */,
 				F60214C124E50BF900872F34 /* SceneDelegate.swift in Sources */,
 			);
@@ -192,6 +196,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +257,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
